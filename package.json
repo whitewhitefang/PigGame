@@ -1,0 +1,19 @@
+{
+  "name": "piggame",
+  "version": "1.0.0",
+  "description": "just pig game",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitewhitefang/PigGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whitewhitefang/PigGame/issues"
+  },
+  "homepage": "https://github.com/whitewhitefang/PigGame#readme"
+}
