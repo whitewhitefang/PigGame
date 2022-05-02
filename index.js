@@ -32,7 +32,7 @@ btnRoll.addEventListener('click', function() {
             currentScore += dice;
             document.getElementById(`current_score-${activePlayer}`).textContent = currentScore;
             console.log(activePlayer);
-            if ((scores[activePlayer][1] + currentScore) >= 10) {
+            if ((scores[activePlayer][1] + currentScore) >= 20) {
                 showWinMess(activePlayer);
                 playing = false;
             }
