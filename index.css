@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.common_field {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  background: #333333;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dd1818, #330a06);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dd1818, #330a06); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.playing_field {
+  width: 800px;
+  height: 500px;
+  margin-left: 50%;
+  margin-right: auto;
+  position: absolute;
+  top: 19%;
+  right: 25%;
+  display: flex;
+  flex-direction: row;
+}
+section.player_one {
+  background-color: #b57272;
+  width: 200px;
+  flex-grow: 1;
+  border-radius: 5px;
+  font-size: 45px;
+}
+section.player_two {
+  background-color: #b57272;
+  width: 200px;
+  flex-grow: 1;
+  border-radius: 5px;
+  font-size: 45px;
+}
+.player_head {
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 6%;
+}
+.current_score {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 6%;
+}
+.total_score {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 60%;
+}
+.overlay_buttons {
+  z-index: 200;
+  position: absolute;
+  top: 0;
+  left: 45%;
+  width: auto;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  padding-top: 2%;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 2 1 1;
+}
+.btn {
+  width: 110px;
+  border-radius: 15px;
+  background-color: lightgrey;
+  font-size: 24px;
+  font-weight: 700;
+}
+.dice_image {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 5%;
+  left: 46.3%;
+}
+.dice {
+  width: 100%;
+  height: auto;
+}
+section.active {
+  background-color: #f7c5c5;
+}
+.hidden {
+  display: none;
+}
+.win_mess {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(22, 22, 22, .4);
+}
+.win_mess_header {
+  position: absolute;
+  top: -25%;
+  left: 0;
+  text-align: center;
+  color: red;
+  font-size: 155px;
+}
